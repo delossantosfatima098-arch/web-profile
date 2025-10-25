@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>BSIT Portfolio — Fatima J. Delos Santos</title>
+		<meta name="description" content="Portfolio of a BSIT student — projects, skills, and contact information." />
+		<link rel="stylesheet" href="style.css" />
+		<link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+	</head>
+	<body>
+		<header class="site-header">
+		<div class="container header-inner">
+		<a class="logo" href="#">Fatima J. Delos Santos</a>
+				<nav class="nav" aria-label="Main navigation">
+					<ul>
+						<li><a href="#about">About</a></li>
+						<li><a href="#skills">Skills</a></li>
+						<li><a href="#projects">Projects</a></li>
+						<li><a href="#contact">Contact</a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+
+		<main>
+			<section class="hero">
+				<div class="container hero-inner">
+					<div class="hero-text">
+						<h1>Hi, I'm Fatima J. Delos Santos</h1>
+						<p class="lead">BS in Information Technology student focusing on web development, systems analysis, and cloud fundamentals.</p>
+						<p class="cta-row">
+							<a class="btn primary" href="#projects">View Projects</a>
+							<a class="btn outline" href="#contact">Get in Touch</a>
+						</p>
+					</div>
+					<div class="hero-media">
+						<img alt="Portrait of Fatima J. Delos Santos" src="Screenshot 2025-10-25 112426.png" class="profile" />
+					</div>
+				</div>
+			</section>
+
+			<section id="about" class="about container">
+				<h2>About</h2>
+						<p>I am a BSIT student with experience in HTML, CSS, JavaScript, and foundational knowledge in databases, networking, and software development lifecycle. I enjoy building intuitive user interfaces and learning new technologies.</p>
+				<ul class="meta-list">
+							<li><strong>Degree:</strong> BS in Information Technology</li>
+							<li><strong>University:</strong> CSU Aparri</li>
+							<li><strong>Location:</strong> Aparri, Cagayan, Philippines</li>
+				</ul>
+			</section>
+
+			<section id="skills" class="skills container">
+				<h2>Skills</h2>
+				<div class="skill-grid">
+					<div class="skill">HTML &amp; CSS</div>
+					<div class="skill">JavaScript</div>
+					<div class="skill">React (basics)</div>
+					<div class="skill">Node.js</div>
+					<div class="skill">SQL &amp; Databases</div>
+					<div class="skill">Git &amp; GitHub</div>
+					<div class="skill">Linux &amp; Networking</div>
+					<div class="skill">CI/CD basics</div>
+				</div>
+			</section>
+
+			<section id="projects" class="projects container">
+				<h2>Selected Projects</h2>
+				<div class="project-list">
+					<article class="project">
+						<h3>Project One — Student Portal</h3>
+						<p>Responsive student portal built with HTML, CSS, and JavaScript featuring grade tracking and announcements.</p>
+						<p class="project-meta">Tech: HTML, CSS, JS — <a href="#">Live</a> · <a href="#">Source</a></p>
+					</article>
+
+					<article class="project">
+						<h3>Project Two — Inventory System</h3>
+						<p>Simple inventory management system prototype using Node.js and SQLite for CRUD operations.</p>
+						<p class="project-meta">Tech: Node.js, SQLite — <a href="#">Source</a></p>
+					</article>
+
+					<article class="project">
+						<h3>Project Three — Portfolio (this site)</h3>
+						<p>Personal portfolio site demonstrating responsive design and accessibility best practices.</p>
+						<p class="project-meta">Tech: HTML, CSS — <a href="#">Source</a></p>
+					</article>
+				</div>
+			</section>
+
+			<section id="contact" class="contact container">
+				<h2>Contact</h2>
+				<p>If you'd like to reach me, send an email or connect on LinkedIn.</p>
+				<ul class="contact-list">
+					  <li>Phone: <a href="tel:09067338736">09067338736</a></li>
+					  <li>Email: <a href="mailto:you@example.com">delossantosfatima098@gmail.com</a></li>
+					  <li>LinkedIn: <a href="#">linkedin.com/in/yourprofile</a></li>
+					  <li>GitHub: <a href="#">github.com/delossantosfatima098-arch</a></li>
+				</ul>
+			</section>
+		</main>
+
+		<footer class="site-footer">
+			<div class="container">
+				<p>&copy; <span id="year"></span> Fatima J. Delos Santos — BSIT Student. Built with ❤️.</p>
+			</div>
+		</footer>
+
+		<script>
+			// Simple small script to set the copyright year
+			document.getElementById('year').textContent = new Date().getFullYear();
+		</script>
+	</body>
+</html>
